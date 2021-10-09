@@ -1,0 +1,78 @@
+/* body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.game {
+  max-width: 400px;
+  margin: 100px auto;
+  overflow: auto;
+  min-height: 400px;
+  border: 1px solid steelblue;
+  padding: 70px;
+  border-radius: 5px;
+}
+
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  margin-left: 48px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.board-row{
+  margin-left: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+/* .game {
+  display: flex;
+  flex-direction: row;
+} */
+
+.game-info {
+  margin-left: 20px;
+}

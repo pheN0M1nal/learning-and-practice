@@ -1,0 +1,10 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url('./img/bg1.jpg');
+}
+
+
